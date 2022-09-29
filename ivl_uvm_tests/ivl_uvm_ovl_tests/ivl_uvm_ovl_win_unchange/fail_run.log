@@ -1,0 +1,33 @@
+OVL_NOTE: V2.8: OVL_WIN_UNCHANGE initialized @ test.assert_win_change.ovl_init_msg_t Severity: 1, Message: VIOLATION
+test.u_clk_100 FREQ_IN_MHZ = 100.000 MHz
+test.u_clk_100 PERIOD    = 10.000 ns
+VCD info: dumpfile dump.vcd opened for output.
+ovl_win_unchange does not fire at reset
+ovl_win_unchange does not fire at reset
+-----ovl_win_unchange checker-----
+ovl_win_unchange does not fire when data is unchanged in window
+---ovl_win_unchange: checking the value change---
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : Test expression has changed value before the event window closes : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : Test expression has changed value before the event window closes : severity 1 : test.assert_win_change.ovl_error_t
+ovl_win_unchange: check finish for unchange
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : Test expression has changed value before the event window closes : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+ovl_win_unchange: check finish for x value
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+C:/msys64/home/IVL_OVL_UVM/ivl_uvm/ivl_uvm_std_ovl//std_ovl_task.h : (40) 
+0 : OVL_ERROR : OVL_WIN_UNCHANGE : VIOLATION : test_expr contains X or Z : severity 1 : test.assert_win_change.ovl_error_t
+ovl_win_unchange: check finish for z value
+ivl_uvm_ovl_win_unchange_asr_fail.sv:83: $finish called at 310000000 (1fs)
